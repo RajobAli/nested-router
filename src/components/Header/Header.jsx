@@ -1,17 +1,20 @@
 
 import './Header.css'
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
+
 const Header = () => {
     return (
-        <div>
+        <div className='text-center mt-10 '>
                <span>My Website</span>
     
             <nav>
-             
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contract">Contract Us</Link>
-                <Link to="/users">Users</Link>
+      
+               <NavLink></NavLink>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/contract">Contract Us</NavLink>
+                <NavLink to="/users">Users</NavLink>
+                <NavLink to="/posts">Posts</NavLink>
                 {/* <a href="/">Home</a><a href="/about">About</a><a href="/contract">Contract Us</a> */}
             </nav>
             

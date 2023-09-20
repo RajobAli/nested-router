@@ -1,0 +1,13 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+nav a.active{
+
+   
+    padding: 5px;
+    color: green;
+    font-weight: bold;
+   
+}
